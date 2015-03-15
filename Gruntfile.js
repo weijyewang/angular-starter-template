@@ -34,12 +34,16 @@ module.exports = function (grunt) {
         }, // End of bootlint.
         validation: {
             options: {
-                reset: grunt.option('reset') || false,
+                reset: grunt.option('reset') || false, // Resets all the validated files status.
+                proxy: '', // Setup your proxy when you are behind a corporate proxy and encounters  ETIMEDOUT.
                 stoponerror: false,
-                relaxerror: [] // Ignores these errors.
+                relaxerror: [], // Ignores these errors.
+                path:  './reports/validation-status.json', // Default file for storing validation information.
+                reportpath: './reports/validation-report.json' // Consolidated report in JSON format, if reportpath is  false  it will not generated.
             },
             files: {
-                src: ['./src/*.html']
+                src: ['./src/*.html'],
+                src: ['./src/**/*.html']
             }
         } // End of validation.
     });
