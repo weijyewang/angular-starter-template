@@ -30,7 +30,8 @@ module.exports = function (grunt) {
                 stoponwarning: true,
                 relaxerror: []
             },
-            files: ['./src/*.html']
+            files: ['./src/*.html'],
+            files: ['./src/**/*.html']
         }, // End of bootlint.
         validation: {
             options: {
