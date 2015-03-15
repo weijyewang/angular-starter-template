@@ -7,10 +7,10 @@ module.exports = function (grunt) {
             dev: {
                 bsFiles: {
                     src: [
-                        './*.html',
-                        './*.js',
-                        '*/**/*.html',
-                        '*/**/*.js'
+                        './src/*.html',
+                        './src/*.js',
+                        '*/src/**/*.html',
+                        '*/src/**/*.js'
                     ]
                 },
                 options: {
