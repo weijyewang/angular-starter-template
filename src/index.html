@@ -3,66 +3,23 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Angular Basic App</title>
-    <link rel="stylesheet" href="libs/bootstrap-3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/basic.css">
+    <title>Simple App</title>
+    <link rel="stylesheet" href="libs/angular-material/angular-material.min.css">
 </head>
 <body>
-<header class="navbar navbar-inverse">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">App</a>
+
+<md-content>
+    <md-toolbar md-scroll-shrink>
+        <div class="md-toolbar-tools">
+            <h3><span>Simple App</span></h3>
         </div>
+    </md-toolbar>
+</md-content>
+<md-content>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="">Page One</a></li>
-                <li><a href="">Page Two</a></li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="">Link</a></li>
-                <li class="dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="">Action</a></li>
-                        <li><a href="">Another action</a></li>
-                        <li><a href="">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="">Separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</header>
-
-<div class="jumbotron">
-    <div class="container">
-        <h1>Homepage</h1>
-        <p>Welcome to the app homepage!</p>
-        <p><a class="btn btn-primary btn-lg" href="" role="button">Learn more</a></p>
-    </div>
-</div>
-
-<div class="container-fluid">
+</md-content>
 
 
-
-</div> <!-- End of container-fluid. -->
-
-
-<!-- Include all the libraries here. -->
-<script src="libs/jquery-2.1.3/jquery-2.1.3.min.js"></script>
-<script src="libs/angular-1.4.0/angular.min.js"></script>
-<script src="libs/bootstrap-3.3.2/js/bootstrap.min.js"></script>
+<script data-main="main.js" src="libs/requirejs/require.min.js"></script>
 </body>
 </html>
