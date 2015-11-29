@@ -1,4 +1,4 @@
-# angular-sample-app
+# Angular Starter Template
 A starting point for creating angular app. 
 More info: http://weijye91.github.io/angular-starter-template 
 
