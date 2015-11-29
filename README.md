@@ -1,3 +1,5 @@
 # angular-sample-app
-A very simple basic angular app. The project is using AngularJS 1.4.0 and Angular New Router.
+A starting point for creating angular app. 
+More info: http://weijye91.github.io/angular-starter-template 
 
+To get started, clone the project and do npm install.
