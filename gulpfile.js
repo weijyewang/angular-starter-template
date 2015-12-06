@@ -17,9 +17,9 @@
       server: {
         baseDir: './src',
         files: ['**/*.html', '**/*.js', '**/*.css'],
-        port: 3000,
         logLevel: 'debug'
-      }
+      },
+      port: 8000
     }, cb);
   });
 
