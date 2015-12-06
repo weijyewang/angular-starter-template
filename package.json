@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/weijye91/angular-sample-app.git"
+    "url": "https://github.com/weijye91/angular-starter-template.git"
   },
   "keywords": [
     "angular"
@@ -19,12 +19,16 @@
   "author": "Wei-Jye Wang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/weijye91/angular-sample-app/issues"
+    "url": "https://github.com/weijye91/angular-starter-template/issues"
   },
   "homepage": "https://github.com/weijye91/angular-sample-app",
   "devDependencies": {
     "browser-sync": "^2.9.6",
     "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
     "jasmine-core": "^2.2.0",
     "karma": "^0.12.31",
     "karma-jasmine": "^0.3.5"
